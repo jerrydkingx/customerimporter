@@ -1,0 +1,27 @@
+{
+    "name": "sabbir/module-customerimporter",
+    "description": "Customer Import By Sabbir",
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sabbir Hossain",
+            "email": "sbbr.hossain@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "*",
+        "magento/module-customer": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sabbir\\Customerimporter\\": ""
+        }
+    }
+}
